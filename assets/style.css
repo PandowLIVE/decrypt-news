@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(230, 230, 230);
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a{
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial Black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(33, 33, 42);
+    width: 98%;
+    padding: 1%;
+}
+
+.nav-btn{
+    transition: 0.3s all;
+    text-align: center;
+    border: solid 3px white;
+    background-color: #354f7000;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.nav-btn:hover{
+    transition: 0.3s all;
+    border-radius: 10px;
+    border: solid 3px white;
+    background-color: #354f703d;
+    width: 110px;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    padding: 1%;
+    text-align: center;
+    width: 98%;
+    background-color: rgb(33, 33, 42);
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    margin: 2%;
+}
+
+.slogan-box{
+    background-color: whitesmoke;
+    margin: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: arial black;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(33, 33, 42);
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px rgb(0, 0, 0, 0.3);
+}
+
+.click{
+    color: #355070;
+}
+
+.white{
+    color: white;
+}
+
+.button{
+    transition: all 0.3s;
+    color: #355070
+}
+
+.button:hover{
+    transition: all 0.3s;
+    color: #5179aa;
+}
+
+.hover:hover{
+    transition: 0.2s all;
+    background-color: rgba(0, 0, 0, 0.5);
+}
