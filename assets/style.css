@@ -21,6 +21,12 @@ ul, li, a{
     padding: 1%;
 }
 
+.article{
+    padding: 15px;
+    flex-grow: -1;
+    text-align: center;
+}
+
 .nav-btn{
     transition: 0.3s all;
     text-align: center;
@@ -43,8 +49,8 @@ ul, li, a{
 }
 
 footer{
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
     padding: 1%;
     text-align: center;
     width: 98%;
@@ -63,10 +69,12 @@ footer{
 
 .slogan-box{
     background-color: whitesmoke;
-    margin: 35px;
+    margin: 70px;
     padding: 10px;
     border-radius: 10px;
+    top: 0;
     flex: 1;
+    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -81,7 +89,10 @@ footer{
     background-color: rgb(33, 33, 42);
     margin: 70px;
     border-radius: 10px;
-    box-shadow: 3px 3px 12px rgb(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.534);
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
 
 .click{
@@ -90,6 +101,7 @@ footer{
 
 .white{
     color: white;
+    font-family: arial black;
 }
 
 .button{
@@ -105,4 +117,29 @@ footer{
 .hover:hover{
     transition: 0.2s all;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover{
+    transition: 0.2s all;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+hr{
+    height: 5px;
+    border-radius: 5px;
+    margin: -0.5em 0;
+    padding: 0;
+    color: #000000;
+    background-color: rgb(33, 33, 42);
+    border: 0;
+}
+
+img{
+    width: 500px;
+    padding: 10px;
+    box-shadow: 3px 3px 12px rgba(26, 26, 26, 0.534);
+}
+
+.top{
+    color: #354f70;
 }
