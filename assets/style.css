@@ -23,8 +23,9 @@ ul, li, a{
 
 .article{
     padding: 15px;
-    flex-grow: -1;
     text-align: center;
+    border: solid 3px white;
+    border-radius: 10px;
 }
 
 .nav-btn{
@@ -42,7 +43,7 @@ ul, li, a{
     transition: 0.3s all;
     border-radius: 10px;
     border: solid 3px white;
-    background-color: #354f703d;
+    background-color: #193150;
     width: 110px;
     padding: 15px;
     margin: 5px;
@@ -70,16 +71,15 @@ footer{
 .slogan-box{
     background-color: whitesmoke;
     margin: 70px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     top: 0;
-    flex: 1;
-    flex-shrink: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
     font-family: arial black;
+    width: 30%;
 }
 
 .slogan{
@@ -90,7 +90,6 @@ footer{
     margin: 70px;
     border-radius: 10px;
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.534);
-    justify-content: space-around;
     flex-flow: row wrap;
     align-items: stretch;
 }
@@ -121,7 +120,7 @@ footer{
 
 .hover{
     transition: 0.2s all;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 hr{
@@ -141,5 +140,26 @@ img{
 }
 
 .top{
-    color: #354f70;
+    color: #4e71a0;
+}
+
+.title{
+    color: white;
+    font-family: arial black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 12px rgb(14, 14, 14);
+    padding: 15px;
+}
+
+.bonus{
+    border: solid 3px #ffb600;
+    color: #ffb600;
+}
+
+.btn{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.5);
 }
